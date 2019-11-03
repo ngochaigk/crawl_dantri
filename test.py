@@ -9,5 +9,5 @@ post_elements=soup.find(id='root')
 all_post=list(post_elements.children)
 
 
-with open('all_post.json', 'wt', encoding='utf-8') as f:
-   f.write(json.dumps(all_post, ensure_ascii=False))
+# with open('all_post.json', 'wt', encoding='utf-8') as f:
+#    f.write(json.dumps(all_post, ensure_ascii=False))
